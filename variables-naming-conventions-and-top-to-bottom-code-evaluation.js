@@ -35,3 +35,14 @@ let cents = 38;
 let pricePerItem = (dollars + cents / 100) / amount;
 let final = name + " bought " + amount + " items for " + dollars + " dollars and " + cents + " cents for an average price of " + pricePerItem + " per item.";
 console.log(final);
+
+/*
+When trying to run code, make sure your terminal is in the correct directory.
+I spent an unnecessary amount of time on this assignment because I could'nt figure that out.
+
+Meaningful variable name help readers understand what is happening at each line.
+Using "a, b, c, and d" doesn't explain to other developers what your code does.
+Don't make the names too long. Make sure to use camel case to separate words in a name.
+When all team members are able to read and follow along, more work is able to be completed within a shorter amount of time.
+Having to constantly translate variable names can slow code production.
+*/
