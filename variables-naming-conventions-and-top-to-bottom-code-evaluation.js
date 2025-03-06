@@ -1,5 +1,9 @@
 /*
 
+03/05/25
+Practice 1: Values, Data Types, and Operations - 2
+variables-naming-conventions-and-top-to-bottom-code-evaluation.js
+
 Objective:
 In this activity, you will reinforce the skill of creating and using variables
 while practicing best practices in variable naming conventions through a hands-on,
@@ -24,9 +28,10 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
-
-console.log(d);
+let name = "Alice";
+let amount = 5;
+let dollars = 20;
+let cents = 38;
+let pricePerItem = (dollars + cents / 100) / amount;
+let final = a + " bought " + amount + " items for " + dollars + " dollars and " + cents + " cents for an average price of " + pricePerItem + " per item.";
+console.log(final);
