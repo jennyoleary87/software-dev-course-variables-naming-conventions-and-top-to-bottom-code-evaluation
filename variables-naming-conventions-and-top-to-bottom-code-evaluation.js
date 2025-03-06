@@ -33,5 +33,5 @@ let amount = 5;
 let dollars = 20;
 let cents = 38;
 let pricePerItem = (dollars + cents / 100) / amount;
-let final = a + " bought " + amount + " items for " + dollars + " dollars and " + cents + " cents for an average price of " + pricePerItem + " per item.";
+let final = name + " bought " + amount + " items for " + dollars + " dollars and " + cents + " cents for an average price of " + pricePerItem + " per item.";
 console.log(final);
